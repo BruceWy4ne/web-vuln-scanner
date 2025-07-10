@@ -143,7 +143,7 @@ def run_scans(website, output_dir, log_dir):
         f.write(
             f"{log_entry['website']}, {log_entry['nikto']} min, {log_entry['wapiti']} min, {log_entry['nuclei']} min, {log_entry['total']} min\n")
 
-    print(f"✅ {sanitized_website} scan complete. Results saved in {website_dir}.")
+    print(f"{sanitized_website} scan complete. Results saved in {website_dir}.")
 
 # Function to handle multi-threaded scanning using multiprocessing
 
@@ -163,7 +163,7 @@ def process_websites(websites, output_dir, max_processes):
         pool.starmap(run_scans, [(site, output_dir, log_dir)
                      for site in websites])
 
-    print("✅ All scans completed.")
+    print("All scans completed.")
 
 
 # Main execution
@@ -184,7 +184,7 @@ if __name__ == "__main__":
                     for line in file.readlines() if line.strip()]
 
     print(
-        f"🚀 Starting scans for {len(websites)} websites using {args.threads} processes...")
+        f"Starting scans for {len(websites)} websites using {args.threads} processes...")
 
     start_time = time.time()
     process_websites(websites, args.output_dir, args.threads)
@@ -194,4 +194,4 @@ if __name__ == "__main__":
     with open(os.path.join(args.output_dir, "log", "execution_time.log"), "w") as f:
         f.write(f"Total execution time: {execution_time:.2f} seconds\n")
 
-    print(f"⏳ Total execution time: {execution_time:.2f} seconds")
+    print(f"Total execution time: {execution_time:.2f} seconds")
