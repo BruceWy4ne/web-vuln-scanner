@@ -166,7 +166,7 @@ def process_websites(websites, output_dir, max_processes):
     print("All scans completed.")
 
 
-# Main execution
+# main execution
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
         description="Run Nikto, Wapiti, and Nuclei scans.")
