@@ -1,0 +1,128 @@
+[
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "Missing Subresource Integrity",
+        "risk_level": "info",
+        "description": "Checks if external script and stylesheet tags in the HTML response are missing the Subresource Integrity (SRI) attribute.\n"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "WAF Detection",
+        "risk_level": "info",
+        "description": "A web application firewall was detected."
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "TLS SNI Proxy Detection",
+        "risk_level": "info",
+        "description": "No description available"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "TLS Version - Detect",
+        "risk_level": "info",
+        "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "TLS Version - Detect",
+        "risk_level": "info",
+        "description": "TLS version detection is a security process used to determine the version of the Transport Layer Security (TLS) protocol used by a computer or server.\nIt is important to detect the TLS version in order to ensure secure communication between two computers or servers.\n"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "robots.txt file",
+        "risk_level": "info",
+        "description": "No description available"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "FingerprintHub Technology Fingerprint",
+        "risk_level": "info",
+        "description": "FingerprintHub Technology Fingerprint tests run in nuclei."
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "Wappalyzer Technology Detection",
+        "risk_level": "info",
+        "description": "No description available"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "robots.txt endpoint prober",
+        "risk_level": "info",
+        "description": "No description available"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "NS Record Detection",
+        "risk_level": "info",
+        "description": "An NS record was detected. An NS record delegates a subdomain to a set of name servers."
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "Detect SSL Certificate Issuer",
+        "risk_level": "info",
+        "description": "Extract the issuer's organization from the target's certificate. Issuers are entities which sign and distribute certificates.\n"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "SSL DNS Names",
+        "risk_level": "info",
+        "description": "Extract the Subject Alternative Name (SAN) from the target's certificate. SAN facilitates the usage of additional hostnames with the same certificate.\n"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "CAA Record",
+        "risk_level": "info",
+        "description": "A CAA record was discovered. A CAA record is used to specify which certificate authorities (CAs) are allowed to issue certificates for a domain."
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "SPF Record - Detection",
+        "risk_level": "info",
+        "description": "An SPF TXT record was detected\n"
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "DNS TXT Record Detected",
+        "risk_level": "info",
+        "description": "A DNS TXT record was detected. The TXT record lets a domain admin leave notes on a DNS server."
+    },
+    {
+        "website": "sheepfarm.in",
+        "vulnerability": "MX Record Detection",
+        "risk_level": "info",
+        "description": "An MX record was detected. MX records direct emails to a mail exchange server."
+    },
+    {
+        "website": "https://sheepfarm.in/",
+        "vulnerability": "Content Security Policy Configuration",
+        "risk_level": "low",
+        "description": "CSP is not set"
+    },
+    {
+        "website": "https://sheepfarm.in/",
+        "vulnerability": "HTTP Secure Headers",
+        "risk_level": "low",
+        "description": "X-Frame-Options is not set"
+    },
+    {
+        "website": "https://sheepfarm.in/",
+        "vulnerability": "HTTP Secure Headers",
+        "risk_level": "low",
+        "description": "X-XSS-Protection is not set"
+    },
+    {
+        "website": "https://sheepfarm.in/",
+        "vulnerability": "HTTP Secure Headers",
+        "risk_level": "low",
+        "description": "X-Content-Type-Options is not set"
+    },
+    {
+        "website": "https://sheepfarm.in/",
+        "vulnerability": "HTTP Secure Headers",
+        "risk_level": "low",
+        "description": "Strict-Transport-Security is not set"
+    }
+]

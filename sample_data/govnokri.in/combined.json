@@ -1,0 +1,20 @@
+[
+    {
+        "website": "govnokri.in",
+        "vulnerability": "DNS WAF Detection",
+        "risk_level": "info",
+        "description": "A DNS WAF was detected."
+    },
+    {
+        "website": "https://govnokri.in/",
+        "vulnerability": "Content Security Policy Configuration",
+        "risk_level": "low",
+        "description": "CSP is not set"
+    },
+    {
+        "website": "https://govnokri.in/",
+        "vulnerability": "HTTP Secure Headers",
+        "risk_level": "low",
+        "description": "X-Frame-Options is not set"
+    }
+]
